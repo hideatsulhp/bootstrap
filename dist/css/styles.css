@@ -10796,3 +10796,21 @@ header.masthead .post-heading .meta a {
     font-size: 2.25rem;
   }
 }
+
+/* form-check-round クラスのスタイル定義 */
+.form-check-round .form-check-input {
+  border-radius: 50%;
+}
+
+/* 例: チェックされた時のスタイル */
+.form-check-round .form-check-input:checked {
+  background-color: #3498db; /* 任意の色 */
+}
+.card {
+  display: flex;
+  flex-direction: column;
+}
+
+.card-body {
+  flex-grow: 1;
+}
